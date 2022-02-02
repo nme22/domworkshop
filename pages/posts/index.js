@@ -22,7 +22,7 @@ export default function BlogPage({ posts }) {
           key={post.slug}
         >
           <VStack>
-            <Link href={`/posts/${posts.slug}`} passHref>
+            <Link href={`/posts/${post.slug}`} passHref>
               <LinkOverlay>
                 <Heading>{post.title}</Heading>
               </LinkOverlay>
